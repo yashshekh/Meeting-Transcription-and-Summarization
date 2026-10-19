@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.streamlit/secrets.toml
+# generated outputs
+transcript.txt
+meeting_summary.txt
+meeting_report.txt
+# large recordings (GitHub rejects files >100 MB; keep big audio out of git)
+*.wav
+!sample_audio/*.wav
+*.rar
+*.whl
+*.tar.gz
